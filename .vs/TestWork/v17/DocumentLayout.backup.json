@@ -1,0 +1,99 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\1\\source\\repos\\TestWork\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|c:\\users\\1\\source\\repos\\testwork\\testwork\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|solutionrelative:testwork\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|c:\\users\\1\\source\\repos\\testwork\\testwork\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|solutionrelative:testwork\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|c:\\users\\1\\source\\repos\\testwork\\testwork\\database\\dblogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|solutionrelative:testwork\\database\\dblogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|c:\\users\\1\\source\\repos\\testwork\\testwork\\database\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|solutionrelative:testwork\\database\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 332,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\Form1.cs",
+              "RelativeDocumentMoniker": "TestWork\\Form1.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\Form1.cs",
+              "RelativeToolTip": "TestWork\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T18:38:16.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DBInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\DataBase\\DBInitializer.cs",
+              "RelativeDocumentMoniker": "TestWork\\DataBase\\DBInitializer.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\DataBase\\DBInitializer.cs",
+              "RelativeToolTip": "TestWork\\DataBase\\DBInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T18:24:37.133Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DBLogger.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\DataBase\\DBLogger.cs",
+              "RelativeDocumentMoniker": "TestWork\\DataBase\\DBLogger.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\DataBase\\DBLogger.cs",
+              "RelativeToolTip": "TestWork\\DataBase\\DBLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T18:24:12.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\Form1.cs",
+              "RelativeDocumentMoniker": "TestWork\\Form1.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "TestWork\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-07T17:46:43.438Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
