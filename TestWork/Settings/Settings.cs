@@ -23,6 +23,7 @@ namespace TestWork
             tbTemplatePath.Text = _settingsManager.Settings.TemplatePath;
             tbPathToSaveFile.Text = _settingsManager.Settings.DefaultSavePath;
             tbEmail.Text = _settingsManager.Settings.UserEmail;
+            tbEmailPass.Text = _settingsManager.Settings.UserEmailPass;
         }
 
         private void btSaveSettings_Click(object sender, EventArgs e)
@@ -31,6 +32,7 @@ namespace TestWork
             _settingsManager.Settings.TemplatePath = tbTemplatePath.Text;
             _settingsManager.Settings.DefaultSavePath = tbPathToSaveFile.Text;
             _settingsManager.Settings.UserEmail = tbEmail.Text;
+            _settingsManager.Settings.UserEmailPass = tbEmailPass.Text;
 
             // Сохраняем настройки в файл
             _settingsManager.SaveSettings();

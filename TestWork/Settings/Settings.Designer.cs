@@ -35,11 +35,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.tbEmailPass = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btSaveSettings
             // 
-            this.btSaveSettings.Location = new System.Drawing.Point(15, 191);
+            this.btSaveSettings.Location = new System.Drawing.Point(15, 235);
             this.btSaveSettings.Name = "btSaveSettings";
             this.btSaveSettings.Size = new System.Drawing.Size(382, 43);
             this.btSaveSettings.TabIndex = 0;
@@ -95,14 +97,32 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Email по умолчанию:";
             // 
+            // tbEmailPass
+            // 
+            this.tbEmailPass.Location = new System.Drawing.Point(242, 187);
+            this.tbEmailPass.Name = "tbEmailPass";
+            this.tbEmailPass.Size = new System.Drawing.Size(155, 22);
+            this.tbEmailPass.TabIndex = 1;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(12, 193);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(193, 16);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Пароль Email по умолчанию:";
+            // 
             // Settings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(409, 246);
+            this.ClientSize = new System.Drawing.Size(409, 290);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.tbEmailPass);
             this.Controls.Add(this.tbEmail);
             this.Controls.Add(this.tbTemplatePath);
             this.Controls.Add(this.tbPathToSaveFile);
@@ -123,5 +143,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox tbEmailPass;
+        private System.Windows.Forms.Label label4;
     }
 }

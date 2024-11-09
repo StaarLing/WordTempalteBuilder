@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 using TestWork.DataBase;
+using TestWork.EmailSend;
 using TestWork.Frontend;
 using TestWork.Template;
 
@@ -45,10 +46,11 @@ namespace TestWork
                 // Извлекаем поля и отображаем их для заполнения
                 var fields = _templateProcessor.GetTemplateFields();
                 _templateProcessor.DisplayFieldsForFilling(this, fields);
+                SaveFileAs.Enabled = true;
             }
         }
 
-        private void btFillFieldTemplate_Click(object sender, EventArgs e)
+        private void SaveFileAs_Click(object sender, EventArgs e)
         {
             _templateProcessor = new TemplateProcessor();
             _templateProcessor.CreateDocumentFromTemplate(templatePath);
@@ -75,6 +77,12 @@ namespace TestWork
             }
 
             _templateProcessor.Close();
+        }
+
+        private void SendEmail_Click(object sender, EventArgs e)
+        {
+            var sendManager = new EmailForm();
+            sendManager.ShowDialog();
         }
     }
 

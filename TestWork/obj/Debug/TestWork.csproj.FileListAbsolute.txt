@@ -20,3 +20,4 @@ C:\Users\1\source\repos\TestWork\TestWork\obj\Debug\TestWork.csproj.Up2Date
 C:\Users\1\source\repos\TestWork\TestWork\bin\Debug\Newtonsoft.Json.dll
 C:\Users\1\source\repos\TestWork\TestWork\bin\Debug\Newtonsoft.Json.xml
 C:\Users\1\source\repos\TestWork\TestWork\obj\Debug\TestWork.Settings.resources
+C:\Users\1\source\repos\TestWork\TestWork\obj\Debug\TestWork.EmailSend.EmailForm.resources

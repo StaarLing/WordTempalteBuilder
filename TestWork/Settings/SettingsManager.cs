@@ -43,5 +43,6 @@ namespace TestWork.Frontend
         public string TemplatePath { get; set; } = "C:\\Users\\1\\source\\repos\\TestWork\\Templates";
         public string DefaultSavePath { get; set; } = "C:\\Users\\1\\source\\repos\\TestWork\\SavedDocuments";
         public string UserEmail { get; set; } = "user@example.com";
+        public string UserEmailPass { get; set; } = "qwerty";
     }
 }

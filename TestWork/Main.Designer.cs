@@ -38,7 +38,6 @@
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.AboutProgramm = new System.Windows.Forms.ToolStripMenuItem();
             this.fieldPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.btFillFieldTemplate = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,7 +50,7 @@
             this.AboutProgramm});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(572, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(343, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -75,15 +74,18 @@
             // 
             // SaveFileAs
             // 
+            this.SaveFileAs.Enabled = false;
             this.SaveFileAs.Name = "SaveFileAs";
             this.SaveFileAs.Size = new System.Drawing.Size(224, 26);
             this.SaveFileAs.Text = "Сохранить в...";
+            this.SaveFileAs.Click += new System.EventHandler(this.SaveFileAs_Click);
             // 
             // SendEmail
             // 
             this.SendEmail.Name = "SendEmail";
             this.SendEmail.Size = new System.Drawing.Size(224, 26);
             this.SendEmail.Text = "Отправить...";
+            this.SendEmail.Click += new System.EventHandler(this.SendEmail_Click);
             // 
             // Settings
             // 
@@ -105,28 +107,17 @@
             // 
             // fieldPanel
             // 
-            this.fieldPanel.Location = new System.Drawing.Point(242, 31);
+            this.fieldPanel.Location = new System.Drawing.Point(12, 31);
             this.fieldPanel.Name = "fieldPanel";
             this.fieldPanel.Size = new System.Drawing.Size(318, 541);
             this.fieldPanel.TabIndex = 1;
-            // 
-            // btFillFieldTemplate
-            // 
-            this.btFillFieldTemplate.Location = new System.Drawing.Point(161, 549);
-            this.btFillFieldTemplate.Name = "btFillFieldTemplate";
-            this.btFillFieldTemplate.Size = new System.Drawing.Size(75, 23);
-            this.btFillFieldTemplate.TabIndex = 2;
-            this.btFillFieldTemplate.Text = "button1";
-            this.btFillFieldTemplate.UseVisualStyleBackColor = true;
-            this.btFillFieldTemplate.Click += new System.EventHandler(this.btFillFieldTemplate_Click);
             // 
             // TemplateBuilder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.ClientSize = new System.Drawing.Size(572, 584);
-            this.Controls.Add(this.btFillFieldTemplate);
+            this.ClientSize = new System.Drawing.Size(343, 584);
             this.Controls.Add(this.fieldPanel);
             this.Controls.Add(this.menuStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -151,7 +142,6 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.ToolStripMenuItem AboutProgramm;
         private System.Windows.Forms.FlowLayoutPanel fieldPanel;
-        private System.Windows.Forms.Button btFillFieldTemplate;
     }
 }
 
