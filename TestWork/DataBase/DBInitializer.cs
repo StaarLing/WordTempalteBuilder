@@ -9,10 +9,12 @@ namespace TestWork.DataBase
 {
     public class DBInitializer
     {
+        public static string _databasePath;
         public static void Initialize(string databasePath)
         {
             using (var connection = new SQLiteConnection($"Data Source={databasePath};Version=3;"))
             {
+                _databasePath = databasePath;
                 connection.Open();
                 string createTableQuery = @"
                 CREATE TABLE IF NOT EXISTS log_operation (

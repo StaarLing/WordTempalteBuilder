@@ -21,6 +21,7 @@ namespace TestWork
             string dbPath = @"C:\Users\1\source\repos\TestWork\TestWork\DataBase\test_work.sqlite";
             DBInitializer.Initialize(dbPath);
             _settingsManager = new SettingsManager(); // Инициализация SettingsManager
+            _dbLogger = new DBLogger(dbPath);
         }
 
         private void SelectTemplate_Click(object sender, EventArgs e)

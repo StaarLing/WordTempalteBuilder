@@ -15,11 +15,13 @@ namespace TestWork.EmailSend
         private readonly SettingsManager _settingsManager;
         private string filePath;
         private DBLogger _dbLogger;
+        private DBInitializer _dbInitializer;
         public EmailForm()
         {
             InitializeComponent();
             _settingsManager = new SettingsManager();
             tbSendFrom.Text = _settingsManager.Settings.UserEmail;
+            _dbLogger = new DBLogger(DBInitializer._databasePath);
         }
 
         private void btSendSearchFile_Click(object sender, EventArgs e)
