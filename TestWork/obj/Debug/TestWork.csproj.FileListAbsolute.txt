@@ -17,3 +17,6 @@ C:\Users\1\source\repos\TestWork\TestWork\bin\Debug\EntityFramework.SqlServer.xm
 C:\Users\1\source\repos\TestWork\TestWork\bin\Debug\System.Data.SQLite.xml
 C:\Users\1\source\repos\TestWork\TestWork\obj\Debug\TestWork.TemplateBuilder.resources
 C:\Users\1\source\repos\TestWork\TestWork\obj\Debug\TestWork.csproj.Up2Date
+C:\Users\1\source\repos\TestWork\TestWork\bin\Debug\Newtonsoft.Json.dll
+C:\Users\1\source\repos\TestWork\TestWork\bin\Debug\Newtonsoft.Json.xml
+C:\Users\1\source\repos\TestWork\TestWork\obj\Debug\TestWork.Settings.resources
