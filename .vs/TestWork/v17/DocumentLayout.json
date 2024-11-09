@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\1\\source\\repos\\TestWork\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|c:\\users\\1\\source\\repos\\testwork\\testwork\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|solutionrelative:testwork\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|c:\\users\\1\\source\\repos\\testwork\\testwork\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|solutionrelative:testwork\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|c:\\users\\1\\source\\repos\\testwork\\testwork\\database\\dblogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|solutionrelative:testwork\\database\\dblogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|c:\\users\\1\\source\\repos\\testwork\\testwork\\emailsend\\emailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|solutionrelative:testwork\\emailsend\\emailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|c:\\users\\1\\source\\repos\\testwork\\testwork\\emailsend\\emailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|solutionrelative:testwork\\emailsend\\emailform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|C:\\Users\\1\\source\\repos\\TestWork\\testwork\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|solutionrelative:testwork\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|c:\\users\\1\\source\\repos\\testwork\\testwork\\template\\templateprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|solutionrelative:testwork\\template\\templateprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|C:\\Users\\1\\source\\repos\\TestWork\\testwork\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{62CC2038-52D0-4E45-9BAA-799766BC4575}|TestWork\\TestWork.csproj|solutionrelative:testwork\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 332,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,65 +46,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EmailForm.cs",
-              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\EmailSend\\EmailForm.cs",
-              "RelativeDocumentMoniker": "TestWork\\EmailSend\\EmailForm.cs",
-              "ToolTip": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\EmailSend\\EmailForm.cs",
-              "RelativeToolTip": "TestWork\\EmailSend\\EmailForm.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAwwFAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T07:38:25.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "EmailForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\EmailSend\\EmailForm.cs",
               "RelativeDocumentMoniker": "TestWork\\EmailSend\\EmailForm.cs",
               "ToolTip": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\EmailSend\\EmailForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "TestWork\\EmailSend\\EmailForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-09T07:19:20.124Z",
+              "WhenOpened": "2024-11-09T14:21:49.556Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TemplateProcessor.cs",
-              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\Template\\TemplateProcessor.cs",
-              "RelativeDocumentMoniker": "TestWork\\Template\\TemplateProcessor.cs",
-              "ToolTip": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\Template\\TemplateProcessor.cs",
-              "RelativeToolTip": "TestWork\\Template\\TemplateProcessor.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwDYAAAAnAAAAAAAAAA==",
+              "Title": "EmailForm.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\EmailSend\\EmailForm.cs",
+              "RelativeDocumentMoniker": "TestWork\\EmailSend\\EmailForm.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\EmailSend\\EmailForm.cs",
+              "RelativeToolTip": "TestWork\\EmailSend\\EmailForm.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAFcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T18:25:59.19Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Main.cs",
-              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\Main.cs",
-              "RelativeDocumentMoniker": "TestWork\\Main.cs",
-              "ToolTip": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\Main.cs",
-              "RelativeToolTip": "TestWork\\Main.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAqwFQAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T17:57:42.146Z",
+              "WhenOpened": "2024-11-09T14:12:18.306Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DBLogger.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\DataBase\\DBLogger.cs",
+              "RelativeDocumentMoniker": "TestWork\\DataBase\\DBLogger.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\DataBase\\DBLogger.cs",
+              "RelativeToolTip": "TestWork\\DataBase\\DBLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T14:10:05.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\Main.cs",
+              "RelativeDocumentMoniker": "TestWork\\Main.cs",
+              "ToolTip": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\Main.cs",
+              "RelativeToolTip": "TestWork\\Main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-09T14:04:40.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Main.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\Main.cs",
               "RelativeDocumentMoniker": "TestWork\\Main.cs",
               "ToolTip": "C:\\Users\\1\\source\\repos\\TestWork\\TestWork\\Main.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "TestWork\\Main.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-08T17:57:38.213Z",
+              "WhenOpened": "2024-11-09T14:04:37.276Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]

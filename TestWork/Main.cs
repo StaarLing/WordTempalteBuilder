@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Windows.Forms;
 using TestWork.DataBase;
 using TestWork.EmailSend;
@@ -12,6 +13,7 @@ namespace TestWork
     {
         private readonly SettingsManager _settingsManager;
         private TemplateProcessor _templateProcessor;
+        private DBLogger _dbLogger;
         string templatePath;
         public TemplateBuilder()
         {
@@ -19,12 +21,6 @@ namespace TestWork
             string dbPath = @"C:\Users\1\source\repos\TestWork\TestWork\DataBase\test_work.sqlite";
             DBInitializer.Initialize(dbPath);
             _settingsManager = new SettingsManager(); // Инициализация SettingsManager
-        }
-
-        private void Settings_Click(object sender, EventArgs e)
-        {
-            var settingsForm = new Settings(_settingsManager);
-            settingsForm.ShowDialog();
         }
 
         private void SelectTemplate_Click(object sender, EventArgs e)
@@ -47,6 +43,7 @@ namespace TestWork
                 var fields = _templateProcessor.GetTemplateFields();
                 _templateProcessor.DisplayFieldsForFilling(this, fields);
                 SaveFileAs.Enabled = true;
+                _dbLogger.LogOperation($"Выбор шаблона", templatePath, _settingsManager.Settings.UserEmail, "OK");
             }
         }
 
@@ -74,6 +71,7 @@ namespace TestWork
                 string savePath = saveFileDialog.FileName;
                 _templateProcessor.SaveFilledDocument(savePath);
                 MessageBox.Show("Документ успешно сохранен.");
+                _dbLogger.LogOperation($"Сохранение документа", templatePath, _settingsManager.Settings.UserEmail, "OK");
             }
 
             _templateProcessor.Close();
@@ -83,6 +81,29 @@ namespace TestWork
         {
             var sendManager = new EmailForm();
             sendManager.ShowDialog();
+        }
+
+        private void AboutProgramm_Click(object sender, EventArgs e)
+        {
+            string url = "https://github.com/StaarLing/WordTempalteBuilder/blob/master/README.md";
+
+            try
+            {
+                Process.Start(new ProcessStartInfo
+                {
+                    FileName = url,
+                    UseShellExecute = true
+                });
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Не удалось открыть ссылку: {ex.Message}");
+            }
+        }
+        private void Setting_Click_1(object sender, EventArgs e)
+        {
+            var settingsForm = new Settings(_settingsManager);
+            settingsForm.ShowDialog();
         }
     }
 

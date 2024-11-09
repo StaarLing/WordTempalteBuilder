@@ -34,8 +34,7 @@
             this.SelectTemplate = new System.Windows.Forms.ToolStripMenuItem();
             this.SaveFileAs = new System.Windows.Forms.ToolStripMenuItem();
             this.SendEmail = new System.Windows.Forms.ToolStripMenuItem();
-            this.Settings = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.Setting = new System.Windows.Forms.ToolStripMenuItem();
             this.AboutProgramm = new System.Windows.Forms.ToolStripMenuItem();
             this.fieldPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.menuStrip1.SuspendLayout();
@@ -43,10 +42,11 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(255)))), ((int)(((byte)(254)))));
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
-            this.toolStripMenuItem2,
+            this.Setting,
             this.AboutProgramm});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
@@ -59,8 +59,8 @@
             this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.SelectTemplate,
             this.SaveFileAs,
-            this.SendEmail,
-            this.Settings});
+            this.SendEmail});
+            this.toolStripMenuItem1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(59, 24);
             this.toolStripMenuItem1.Text = "Файл";
@@ -87,35 +87,33 @@
             this.SendEmail.Text = "Отправить...";
             this.SendEmail.Click += new System.EventHandler(this.SendEmail_Click);
             // 
-            // Settings
+            // Setting
             // 
-            this.Settings.Name = "Settings";
-            this.Settings.Size = new System.Drawing.Size(224, 26);
-            this.Settings.Text = "Настройки";
-            this.Settings.Click += new System.EventHandler(this.Settings_Click);
-            // 
-            // toolStripMenuItem2
-            // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(14, 24);
+            this.Setting.Name = "Setting";
+            this.Setting.Size = new System.Drawing.Size(98, 24);
+            this.Setting.Text = "Настройки";
+            this.Setting.Click += new System.EventHandler(this.Setting_Click_1);
             // 
             // AboutProgramm
             // 
             this.AboutProgramm.Name = "AboutProgramm";
             this.AboutProgramm.Size = new System.Drawing.Size(118, 24);
             this.AboutProgramm.Text = "О программе";
+            this.AboutProgramm.Click += new System.EventHandler(this.AboutProgramm_Click);
             // 
             // fieldPanel
             // 
-            this.fieldPanel.Location = new System.Drawing.Point(12, 31);
+            this.fieldPanel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
+            this.fieldPanel.Location = new System.Drawing.Point(0, 31);
             this.fieldPanel.Name = "fieldPanel";
-            this.fieldPanel.Size = new System.Drawing.Size(318, 541);
+            this.fieldPanel.Size = new System.Drawing.Size(343, 541);
             this.fieldPanel.TabIndex = 1;
             // 
             // TemplateBuilder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.ClientSize = new System.Drawing.Size(343, 584);
             this.Controls.Add(this.fieldPanel);
@@ -138,8 +136,7 @@
         private System.Windows.Forms.ToolStripMenuItem SelectTemplate;
         private System.Windows.Forms.ToolStripMenuItem SaveFileAs;
         private System.Windows.Forms.ToolStripMenuItem SendEmail;
-        private System.Windows.Forms.ToolStripMenuItem Settings;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem Setting;
         private System.Windows.Forms.ToolStripMenuItem AboutProgramm;
         private System.Windows.Forms.FlowLayoutPanel fieldPanel;
     }

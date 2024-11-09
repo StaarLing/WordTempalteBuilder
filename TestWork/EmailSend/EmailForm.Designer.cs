@@ -47,43 +47,43 @@
             // 
             this.tbSendFrom.Location = new System.Drawing.Point(111, 12);
             this.tbSendFrom.Name = "tbSendFrom";
-            this.tbSendFrom.Size = new System.Drawing.Size(155, 22);
+            this.tbSendFrom.Size = new System.Drawing.Size(213, 22);
             this.tbSendFrom.TabIndex = 0;
             // 
             // tbSendTo
             // 
-            this.tbSendTo.Location = new System.Drawing.Point(111, 40);
+            this.tbSendTo.Location = new System.Drawing.Point(111, 42);
             this.tbSendTo.Name = "tbSendTo";
-            this.tbSendTo.Size = new System.Drawing.Size(155, 22);
+            this.tbSendTo.Size = new System.Drawing.Size(213, 22);
             this.tbSendTo.TabIndex = 0;
             // 
             // tbSendTheme
             // 
-            this.tbSendTheme.Location = new System.Drawing.Point(111, 68);
+            this.tbSendTheme.Location = new System.Drawing.Point(111, 72);
             this.tbSendTheme.Name = "tbSendTheme";
-            this.tbSendTheme.Size = new System.Drawing.Size(155, 22);
+            this.tbSendTheme.Size = new System.Drawing.Size(213, 22);
             this.tbSendTheme.TabIndex = 0;
             // 
             // tbSendBody
             // 
-            this.tbSendBody.Location = new System.Drawing.Point(111, 132);
+            this.tbSendBody.Location = new System.Drawing.Point(111, 143);
             this.tbSendBody.Multiline = true;
             this.tbSendBody.Name = "tbSendBody";
-            this.tbSendBody.Size = new System.Drawing.Size(202, 95);
+            this.tbSendBody.Size = new System.Drawing.Size(213, 120);
             this.tbSendBody.TabIndex = 0;
             // 
             // tbSendFile
             // 
-            this.tbSendFile.Location = new System.Drawing.Point(111, 96);
+            this.tbSendFile.Location = new System.Drawing.Point(111, 102);
             this.tbSendFile.Name = "tbSendFile";
-            this.tbSendFile.Size = new System.Drawing.Size(155, 22);
+            this.tbSendFile.Size = new System.Drawing.Size(166, 22);
             this.tbSendFile.TabIndex = 0;
             // 
             // btSend
             // 
-            this.btSend.Location = new System.Drawing.Point(12, 262);
+            this.btSend.Location = new System.Drawing.Point(12, 272);
             this.btSend.Name = "btSend";
-            this.btSend.Size = new System.Drawing.Size(301, 37);
+            this.btSend.Size = new System.Drawing.Size(312, 37);
             this.btSend.TabIndex = 1;
             this.btSend.Text = "Отправить";
             this.btSend.UseVisualStyleBackColor = true;
@@ -92,7 +92,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 18);
+            this.label1.Location = new System.Drawing.Point(12, 15);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(27, 16);
             this.label1.TabIndex = 2;
@@ -101,7 +101,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 46);
+            this.label2.Location = new System.Drawing.Point(12, 45);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(43, 16);
             this.label2.TabIndex = 2;
@@ -110,7 +110,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 74);
+            this.label3.Location = new System.Drawing.Point(11, 75);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(44, 16);
             this.label3.TabIndex = 2;
@@ -119,7 +119,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 130);
+            this.label4.Location = new System.Drawing.Point(12, 146);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(93, 16);
             this.label4.TabIndex = 2;
@@ -128,7 +128,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 102);
+            this.label5.Location = new System.Drawing.Point(12, 105);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(45, 16);
             this.label5.TabIndex = 2;
@@ -137,7 +137,7 @@
             // btSendSearchFile
             // 
             this.btSendSearchFile.Image = ((System.Drawing.Image)(resources.GetObject("btSendSearchFile.Image")));
-            this.btSendSearchFile.Location = new System.Drawing.Point(272, 89);
+            this.btSendSearchFile.Location = new System.Drawing.Point(283, 100);
             this.btSendSearchFile.Name = "btSendSearchFile";
             this.btSendSearchFile.Size = new System.Drawing.Size(41, 37);
             this.btSendSearchFile.TabIndex = 3;
@@ -148,7 +148,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(336, 311);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
+            this.ClientSize = new System.Drawing.Size(336, 321);
             this.Controls.Add(this.btSendSearchFile);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -162,7 +163,7 @@
             this.Controls.Add(this.tbSendTo);
             this.Controls.Add(this.tbSendFrom);
             this.Name = "EmailForm";
-            this.Text = "EmailForm";
+            this.Text = "Отправить...";
             this.ResumeLayout(false);
             this.PerformLayout();
 

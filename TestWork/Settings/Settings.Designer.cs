@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Settings));
             this.btSaveSettings = new System.Windows.Forms.Button();
             this.tbTemplatePath = new System.Windows.Forms.TextBox();
             this.tbEmail = new System.Windows.Forms.TextBox();
@@ -37,13 +38,15 @@
             this.label3 = new System.Windows.Forms.Label();
             this.tbEmailPass = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.btSavePathFile = new System.Windows.Forms.Button();
+            this.btTemplatePath = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btSaveSettings
             // 
             this.btSaveSettings.Location = new System.Drawing.Point(15, 235);
             this.btSaveSettings.Name = "btSaveSettings";
-            this.btSaveSettings.Size = new System.Drawing.Size(382, 43);
+            this.btSaveSettings.Size = new System.Drawing.Size(450, 43);
             this.btSaveSettings.TabIndex = 0;
             this.btSaveSettings.Text = "Сохранить";
             this.btSaveSettings.UseVisualStyleBackColor = true;
@@ -51,23 +54,23 @@
             // 
             // tbTemplatePath
             // 
-            this.tbTemplatePath.Location = new System.Drawing.Point(242, 89);
+            this.tbTemplatePath.Location = new System.Drawing.Point(250, 88);
             this.tbTemplatePath.Name = "tbTemplatePath";
-            this.tbTemplatePath.Size = new System.Drawing.Size(155, 22);
+            this.tbTemplatePath.Size = new System.Drawing.Size(168, 22);
             this.tbTemplatePath.TabIndex = 1;
             // 
             // tbEmail
             // 
-            this.tbEmail.Location = new System.Drawing.Point(242, 140);
+            this.tbEmail.Location = new System.Drawing.Point(250, 139);
             this.tbEmail.Name = "tbEmail";
-            this.tbEmail.Size = new System.Drawing.Size(155, 22);
+            this.tbEmail.Size = new System.Drawing.Size(215, 22);
             this.tbEmail.TabIndex = 1;
             // 
             // tbPathToSaveFile
             // 
-            this.tbPathToSaveFile.Location = new System.Drawing.Point(242, 35);
+            this.tbPathToSaveFile.Location = new System.Drawing.Point(250, 37);
             this.tbPathToSaveFile.Name = "tbPathToSaveFile";
-            this.tbPathToSaveFile.Size = new System.Drawing.Size(155, 22);
+            this.tbPathToSaveFile.Size = new System.Drawing.Size(168, 22);
             this.tbPathToSaveFile.TabIndex = 1;
             // 
             // label1
@@ -82,7 +85,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 92);
+            this.label2.Location = new System.Drawing.Point(12, 91);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(218, 16);
             this.label2.TabIndex = 2;
@@ -91,7 +94,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 146);
+            this.label3.Location = new System.Drawing.Point(12, 142);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(141, 16);
             this.label3.TabIndex = 2;
@@ -99,9 +102,10 @@
             // 
             // tbEmailPass
             // 
-            this.tbEmailPass.Location = new System.Drawing.Point(242, 187);
+            this.tbEmailPass.Location = new System.Drawing.Point(250, 190);
             this.tbEmailPass.Name = "tbEmailPass";
-            this.tbEmailPass.Size = new System.Drawing.Size(155, 22);
+            this.tbEmailPass.PasswordChar = '*';
+            this.tbEmailPass.Size = new System.Drawing.Size(215, 22);
             this.tbEmailPass.TabIndex = 1;
             // 
             // label4
@@ -113,11 +117,34 @@
             this.label4.TabIndex = 2;
             this.label4.Text = "Пароль Email по умолчанию:";
             // 
+            // btSavePathFile
+            // 
+            this.btSavePathFile.Image = ((System.Drawing.Image)(resources.GetObject("btSavePathFile.Image")));
+            this.btSavePathFile.Location = new System.Drawing.Point(424, 30);
+            this.btSavePathFile.Name = "btSavePathFile";
+            this.btSavePathFile.Size = new System.Drawing.Size(41, 37);
+            this.btSavePathFile.TabIndex = 4;
+            this.btSavePathFile.UseVisualStyleBackColor = true;
+            this.btSavePathFile.Click += new System.EventHandler(this.btSavePathFile_Click);
+            // 
+            // btTemplatePath
+            // 
+            this.btTemplatePath.Image = ((System.Drawing.Image)(resources.GetObject("btTemplatePath.Image")));
+            this.btTemplatePath.Location = new System.Drawing.Point(424, 81);
+            this.btTemplatePath.Name = "btTemplatePath";
+            this.btTemplatePath.Size = new System.Drawing.Size(41, 37);
+            this.btTemplatePath.TabIndex = 5;
+            this.btTemplatePath.UseVisualStyleBackColor = true;
+            this.btTemplatePath.Click += new System.EventHandler(this.btTemplatePath_Click);
+            // 
             // Settings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(409, 290);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(241)))), ((int)(((byte)(245)))));
+            this.ClientSize = new System.Drawing.Size(477, 290);
+            this.Controls.Add(this.btTemplatePath);
+            this.Controls.Add(this.btSavePathFile);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -145,5 +172,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox tbEmailPass;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btSavePathFile;
+        private System.Windows.Forms.Button btTemplatePath;
     }
 }

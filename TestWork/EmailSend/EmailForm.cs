@@ -6,6 +6,7 @@ using TestWork.Frontend;
 using TestWork.Template;
 using Microsoft.Office.Interop.Word;
 using System.Xml.Linq;
+using TestWork.DataBase;
 
 namespace TestWork.EmailSend
 {
@@ -13,6 +14,7 @@ namespace TestWork.EmailSend
     {
         private readonly SettingsManager _settingsManager;
         private string filePath;
+        private DBLogger _dbLogger;
         public EmailForm()
         {
             InitializeComponent();
@@ -75,11 +77,13 @@ namespace TestWork.EmailSend
 
                 // Отправляем письмо
                 smtpClient.Send(mailMessage);
-                Console.WriteLine("Письмо отправлено успешно!");
+                MessageBox.Show("Письмо отправлено успешно!");
+                _dbLogger.LogOperation($"Отправка письма", filePath, _settingsManager.Settings.UserEmail, "OK");
             }
             catch (Exception ex)
             {
-                Console.WriteLine($"Ошибка при отправке письма: {ex.Message}");
+                MessageBox.Show($"Ошибка при отправке письма: {ex.Message}");
+                _dbLogger.LogOperation($"Отправка письма", filePath, _settingsManager.Settings.UserEmail, "Error");
             }
         }
     }

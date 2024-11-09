@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using TestWork.Frontend;
+using TestWork.Template;
 
 namespace TestWork
 {
@@ -38,6 +39,34 @@ namespace TestWork
             _settingsManager.SaveSettings();
             MessageBox.Show("Настройки сохранены.");
             this.Close();
+        }
+
+        private void btSavePathFile_Click(object sender, EventArgs e)
+        {
+            using (FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog())
+            {
+                folderBrowserDialog.Description = "Выберите папку для сохранения файлов по умолчанию";
+                folderBrowserDialog.SelectedPath = _settingsManager.Settings.DefaultSavePath;
+
+                if (folderBrowserDialog.ShowDialog() == DialogResult.OK)
+                {
+                    tbPathToSaveFile.Text = folderBrowserDialog.SelectedPath; 
+                }
+            }
+        }
+
+        private void btTemplatePath_Click(object sender, EventArgs e)
+        {
+            using (FolderBrowserDialog folderBrowserDialog = new FolderBrowserDialog())
+            {
+                folderBrowserDialog.Description = "Выберите папку для выбора шаблонов по умолчанию";
+                folderBrowserDialog.SelectedPath = _settingsManager.Settings.TemplatePath;
+
+                if (folderBrowserDialog.ShowDialog() == DialogResult.OK)
+                {
+                    tbTemplatePath.Text = folderBrowserDialog.SelectedPath;
+                }
+            }
         }
     }
 }
