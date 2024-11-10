@@ -109,14 +109,15 @@ namespace TestWork.Template
                 if (_document != null)
                 {
                     _document.Close(false);
-                    Marshal.ReleaseComObject(_document);
+                    Marshal.FinalReleaseComObject(_document);
                     _document = null;
                 }
 
                 if (_wordApp != null)
                 {
                     _wordApp.Quit();
-                    Marshal.ReleaseComObject(_wordApp);
+                    Marshal.FinalReleaseComObject(_wordApp);
+                    _wordApp = null;
                 }
             }
             catch (Exception ex)
@@ -129,7 +130,8 @@ namespace TestWork.Template
                 GC.WaitForPendingFinalizers();
             }
         }
-            public void DisplayFieldsForFilling(Form form, List<string> fields)
+
+        public void DisplayFieldsForFilling(Form form, List<string> fields)
         {
             // Получаем ссылку на FlowLayoutPanel в форме
             FlowLayoutPanel fieldsFlowLayoutPanel = form.Controls.OfType<FlowLayoutPanel>().FirstOrDefault();
@@ -145,9 +147,9 @@ namespace TestWork.Template
 
             // Устанавливаем направление и отступы для FlowLayoutPanel
             fieldsFlowLayoutPanel.FlowDirection = FlowDirection.LeftToRight;
-            fieldsFlowLayoutPanel.WrapContents = true; // чтобы элементы переходили на следующую строку
-            fieldsFlowLayoutPanel.Padding = new Padding(10); // Внутренний отступ панели
-            fieldsFlowLayoutPanel.AutoScroll = true; // Включаем прокрутку
+            fieldsFlowLayoutPanel.WrapContents = true; 
+            fieldsFlowLayoutPanel.Padding = new Padding(10); 
+            fieldsFlowLayoutPanel.AutoScroll = true; 
 
             // Перебираем список полей и создаем соответствующие элементы
             foreach (var field in fields)
@@ -155,17 +157,17 @@ namespace TestWork.Template
                 // Создаем label для отображения названия поля
                 Label fieldLabel = new Label
                 {
-                    Text = field, // Имя поля
+                    Text = field,
                     AutoSize = true,
-                    Margin = new Padding(5, 10, 5, 0) // Отступы для label
+                    Margin = new Padding(5, 10, 5, 0) 
                 };
 
                 // Создаем текстовое поле для ввода данных
                 TextBox fieldTextBox = new TextBox
                 {
-                    Name = field, // Присваиваем уникальное имя
-                    Width = 200, // Устанавливаем ширину текстового поля
-                    Margin = new Padding(5, 5, 5, 10) // Отступы для TextBox
+                    Name = field,
+                    Width = 200, 
+                    Margin = new Padding(5, 5, 5, 10) 
                 };
 
                 // Добавляем элементы в FlowLayoutPanel
